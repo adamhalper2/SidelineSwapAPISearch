@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730FD27BB01E96B786E1262D /* Pods_SidelineSwapiOSChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75B772FB332C39C1A12E40E /* Pods_SidelineSwapiOSChallenge.framework */; };
 		8A483548252110B70027D116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483547252110B70027D116 /* AppDelegate.swift */; };
 		8A48354A252110B70027D116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483549252110B70027D116 /* SceneDelegate.swift */; };
-		8A48354C252110B70027D116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48354B252110B70027D116 /* ViewController.swift */; };
 		8A48354F252110B70027D116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A48354D252110B70027D116 /* Main.storyboard */; };
 		8A483551252110B80027D116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A483550252110B80027D116 /* Assets.xcassets */; };
 		8A483554252110B80027D116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A483552252110B80027D116 /* LaunchScreen.storyboard */; };
 		8A48355F252110B80027D116 /* SidelineSwapiOSChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48355E252110B80027D116 /* SidelineSwapiOSChallengeTests.swift */; };
 		8A48356A252110B80027D116 /* SidelineSwapiOSChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483569252110B80027D116 /* SidelineSwapiOSChallengeUITests.swift */; };
+		8A483578252114520027D116 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483577252114520027D116 /* ShopViewController.swift */; };
+		8A48357A252115300027D116 /* ShopItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A483579252115300027D116 /* ShopItemCollectionViewCell.swift */; };
+		8A48357C252115A10027D116 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48357B252115A10027D116 /* ShopItem.swift */; };
+		8A483580252118B50027D116 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48357F252118B50027D116 /* Networking.swift */; };
+		8A4835852521211B0027D116 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4835842521211B0027D116 /* NetworkResponse.swift */; };
+		8A48358B252157440027D116 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A48358A252157440027D116 /* ImageItem.swift */; };
+		B4E1B4C526C09A4DC3F935C9 /* Pods_SidelineSwapiOSChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12381AEAFE9FBBB5CD444B2F /* Pods_SidelineSwapiOSChallengeTests.framework */; };
+		D1D412DD2C6CDD9D26BDF649 /* Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5864D749FD21CCF61099155 /* Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12381AEAFE9FBBB5CD444B2F /* Pods_SidelineSwapiOSChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidelineSwapiOSChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD25507AE36BBDAEDA502C2 /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CFD165EE1F8F9AD9A746537 /* Pods-SidelineSwapiOSChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallengeTests/Pods-SidelineSwapiOSChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D7D7AC501BB350D115A8A9F /* Pods-SidelineSwapiOSChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallenge.release.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallenge/Pods-SidelineSwapiOSChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		8A483544252110B70027D116 /* SidelineSwapiOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidelineSwapiOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A483547252110B70027D116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A483549252110B70027D116 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A48354B252110B70027D116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A48354E252110B70027D116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A483550252110B80027D116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A483553252110B80027D116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,17 @@
 		8A483565252110B80027D116 /* SidelineSwapiOSChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidelineSwapiOSChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A483569252110B80027D116 /* SidelineSwapiOSChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidelineSwapiOSChallengeUITests.swift; sourceTree = "<group>"; };
 		8A48356B252110B80027D116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A483577252114520027D116 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		8A483579252115300027D116 /* ShopItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A48357B252115A10027D116 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		8A48357F252118B50027D116 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8A4835842521211B0027D116 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		8A48358A252157440027D116 /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		A5864D749FD21CCF61099155 /* Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4232C0E1346B4A7AA0A2602 /* Pods-SidelineSwapiOSChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallengeTests/Pods-SidelineSwapiOSChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C75B772FB332C39C1A12E40E /* Pods_SidelineSwapiOSChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidelineSwapiOSChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AD8758B2843D573A94E53D /* Pods-SidelineSwapiOSChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallenge/Pods-SidelineSwapiOSChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC0DE2B19C74C26BFE6229A /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730FD27BB01E96B786E1262D /* Pods_SidelineSwapiOSChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E1B4C526C09A4DC3F935C9 /* Pods_SidelineSwapiOSChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D412DD2C6CDD9D26BDF649 /* Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2F9287920564F2AED029C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD8758B2843D573A94E53D /* Pods-SidelineSwapiOSChallenge.debug.xcconfig */,
+				4D7D7AC501BB350D115A8A9F /* Pods-SidelineSwapiOSChallenge.release.xcconfig */,
+				2AD25507AE36BBDAEDA502C2 /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.debug.xcconfig */,
+				EFC0DE2B19C74C26BFE6229A /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.release.xcconfig */,
+				2CFD165EE1F8F9AD9A746537 /* Pods-SidelineSwapiOSChallengeTests.debug.xcconfig */,
+				B4232C0E1346B4A7AA0A2602 /* Pods-SidelineSwapiOSChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62D74CEDD77B8342B6A2252B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75B772FB332C39C1A12E40E /* Pods_SidelineSwapiOSChallenge.framework */,
+				A5864D749FD21CCF61099155 /* Pods_SidelineSwapiOSChallenge_SidelineSwapiOSChallengeUITests.framework */,
+				12381AEAFE9FBBB5CD444B2F /* Pods_SidelineSwapiOSChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A48353B252110B70027D116 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +131,8 @@
 				8A48355D252110B80027D116 /* SidelineSwapiOSChallengeTests */,
 				8A483568252110B80027D116 /* SidelineSwapiOSChallengeUITests */,
 				8A483545252110B70027D116 /* Products */,
+				2C2F9287920564F2AED029C1 /* Pods */,
+				62D74CEDD77B8342B6A2252B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +151,12 @@
 			children = (
 				8A483547252110B70027D116 /* AppDelegate.swift */,
 				8A483549252110B70027D116 /* SceneDelegate.swift */,
-				8A48354B252110B70027D116 /* ViewController.swift */,
-				8A48354D252110B70027D116 /* Main.storyboard */,
-				8A483550252110B80027D116 /* Assets.xcassets */,
 				8A483552252110B80027D116 /* LaunchScreen.storyboard */,
+				8A4835812521208D0027D116 /* Models */,
+				8A483583252120A00027D116 /* Controllers */,
+				8A483582252120930027D116 /* Views */,
 				8A483555252110B80027D116 /* Info.plist */,
+				8A48358C252264FF0027D116 /* Resources */,
 			);
 			path = SidelineSwapiOSChallenge;
 			sourceTree = "<group>";
@@ -128,6 +179,42 @@
 			path = SidelineSwapiOSChallengeUITests;
 			sourceTree = "<group>";
 		};
+		8A4835812521208D0027D116 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A48357F252118B50027D116 /* Networking.swift */,
+				8A48357B252115A10027D116 /* ShopItem.swift */,
+				8A4835842521211B0027D116 /* NetworkResponse.swift */,
+				8A48358A252157440027D116 /* ImageItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A483582252120930027D116 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A48354D252110B70027D116 /* Main.storyboard */,
+				8A483579252115300027D116 /* ShopItemCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A483583252120A00027D116 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A483577252114520027D116 /* ShopViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A48358C252264FF0027D116 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A483550252110B80027D116 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A48356E252110B80027D116 /* Build configuration list for PBXNativeTarget "SidelineSwapiOSChallenge" */;
 			buildPhases = (
+				105C4A518C8107259B3B6D6E /* [CP] Check Pods Manifest.lock */,
 				8A483540252110B70027D116 /* Sources */,
 				8A483541252110B70027D116 /* Frameworks */,
 				8A483542252110B70027D116 /* Resources */,
+				ED97138A05BBB7087BDA531F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A483571252110B80027D116 /* Build configuration list for PBXNativeTarget "SidelineSwapiOSChallengeTests" */;
 			buildPhases = (
+				43FF89D0986C6E1CF7D68FFF /* [CP] Check Pods Manifest.lock */,
 				8A483556252110B80027D116 /* Sources */,
 				8A483557252110B80027D116 /* Frameworks */,
 				8A483558252110B80027D116 /* Resources */,
@@ -170,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A483574252110B80027D116 /* Build configuration list for PBXNativeTarget "SidelineSwapiOSChallengeUITests" */;
 			buildPhases = (
+				EEC7270FE945159E4DE73E2B /* [CP] Check Pods Manifest.lock */,
 				8A483561252110B80027D116 /* Sources */,
 				8A483562252110B80027D116 /* Frameworks */,
 				8A483563252110B80027D116 /* Resources */,
+				320DDF3CD2B8C6C00E966420 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +346,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105C4A518C8107259B3B6D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SidelineSwapiOSChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320DDF3CD2B8C6C00E966420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FF89D0986C6E1CF7D68FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SidelineSwapiOSChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED97138A05BBB7087BDA531F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge/Pods-SidelineSwapiOSChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge/Pods-SidelineSwapiOSChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidelineSwapiOSChallenge/Pods-SidelineSwapiOSChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC7270FE945159E4DE73E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A483540252110B70027D116 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A48354C252110B70027D116 /* ViewController.swift in Sources */,
+				8A48358B252157440027D116 /* ImageItem.swift in Sources */,
+				8A483578252114520027D116 /* ShopViewController.swift in Sources */,
+				8A483580252118B50027D116 /* Networking.swift in Sources */,
+				8A48357C252115A10027D116 /* ShopItem.swift in Sources */,
+				8A4835852521211B0027D116 /* NetworkResponse.swift in Sources */,
 				8A483548252110B70027D116 /* AppDelegate.swift in Sources */,
+				8A48357A252115300027D116 /* ShopItemCollectionViewCell.swift in Sources */,
 				8A48354A252110B70027D116 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,10 +632,13 @@
 		};
 		8A48356F252110B80027D116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AD8758B2843D573A94E53D /* Pods-SidelineSwapiOSChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75GE4R4KM2;
 				INFOPLIST_FILE = SidelineSwapiOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +652,13 @@
 		};
 		8A483570252110B80027D116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7D7AC501BB350D115A8A9F /* Pods-SidelineSwapiOSChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75GE4R4KM2;
 				INFOPLIST_FILE = SidelineSwapiOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +672,7 @@
 		};
 		8A483572252110B80027D116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFD165EE1F8F9AD9A746537 /* Pods-SidelineSwapiOSChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +694,7 @@
 		};
 		8A483573252110B80027D116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4232C0E1346B4A7AA0A2602 /* Pods-SidelineSwapiOSChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +716,7 @@
 		};
 		8A483575252110B80027D116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD25507AE36BBDAEDA502C2 /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +736,7 @@
 		};
 		8A483576252110B80027D116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC0DE2B19C74C26BFE6229A /* Pods-SidelineSwapiOSChallenge-SidelineSwapiOSChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
